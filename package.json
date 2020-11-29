@@ -1,7 +1,7 @@
 {
-  "name": "github-names",
+  "name": "random-strings-gen",
   "version": "1.0.0",
-  "description": "Get random GitHub usernames",
+  "description": "Generator for random strings",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
