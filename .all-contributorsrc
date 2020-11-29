@@ -1,0 +1,27 @@
+{
+  "projectName": "github-names",
+  "projectOwner": "joseacabaneros",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "login": "joseacabaneros",
+      "name": "Jose Antonio Cabañeros",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10746604?v=4",
+      "profile": "https://github.com/joseacabaneros",
+      "contributions": [
+        "code",
+        "doc",
+        "review",
+        "tool"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
