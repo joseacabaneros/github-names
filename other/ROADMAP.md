@@ -1,4 +1,4 @@
-# starwars-names roadmap
+# random-strings-gen roadmap
 
 This is just an example of what a roadmap might look like for a project
 

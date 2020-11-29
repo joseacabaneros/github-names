@@ -15,7 +15,9 @@
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "lint": "eslint src",
     "validate": "npm-run-all --parallel test lint build",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
@@ -38,6 +40,7 @@
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
+    "all-contributors-cli": "6.19.0",
     "babel-cli": "6.11.4",
     "babel-loader": "6.2.4",
     "babel-plugin-istanbul": "1.0.3",
@@ -55,6 +58,7 @@
     "mocha": "3.0.0",
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
+    "opt-cli": "1.6.0",
     "rimraf": "2.5.4",
     "semantic-release": "^17.3.0",
     "validate-commit-msg": "2.14.0",
@@ -97,8 +101,8 @@
       "path": "cz-conventional-changelog"
     },
     "ghooks": {
-      "pre-commit": "npm run validate",
-      "commit-msg": "validate-commit-msg"
+      "pre-commit": "opt --in pre-commit --exec \"npm run validate\"",
+      "commit-msg": "opt --in pre-commit --exec \"validate-commit-msg\""
     }
   }
 }

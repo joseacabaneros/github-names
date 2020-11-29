@@ -1,4 +1,4 @@
-# Maintaining starwars-names
+# Maintaining random-strings-gen
 
 [![Dependency Status][deps-badge]][deps]
 [![devDependency Status][dev-deps-badge]][dev-deps]
