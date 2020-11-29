@@ -15,7 +15,8 @@
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "lint": "eslint src",
     "validate": "npm-run-all --parallel test lint build",
-    "release": "semantic-release && npm publish"
+    "release": "semantic-release && npm publish",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
