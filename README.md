@@ -44,7 +44,7 @@ module for AMD/CommonJS (require it by its file path)
 ## Usage
 
 ```javascript
-const gitHubNames = require('github-names') // CommonJS
+const gitHubNames = require('random-strings-gen') // CommonJS
 console.log(gitHubNames.random()) // Han Solo
 console.log(gitHubNames.random()) // Kit Fisto
 // you can also get the full array on `gitHubNames.all`
